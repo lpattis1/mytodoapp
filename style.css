@@ -1,0 +1,90 @@
+body {
+  background-image: linear-gradient(#ff6161, #ff768c);
+  background-repeat: no-repeat;
+  height: 300vh;
+  overflow-y: auto;
+}
+
+input:focus {
+  outline: none;
+}
+
+.btn:focus,
+.btn:active {
+  outline: none !important;
+  box-shadow: none;
+}
+
+i:focus {
+  outline: none !important;
+}
+
+.submission-title {
+  font-size: 2.5rem !important;
+  text-transform: uppercase;
+  font-weight: 700;
+  color: white;
+}
+
+.new-task-input {
+  padding: 0.5rem 1rem;
+  width: 20rem;
+
+  border: none;
+  border-top-left-radius: 0.2rem;
+  border-bottom-left-radius: 0.2rem;
+}
+
+.new-task-btn {
+  background: white;
+  font-size: 1.5rem;
+  border-top-left-radius: 0;
+  border-bottom-left-radius: 0;
+  color: #53bdff;
+}
+
+.filter-input {
+  padding: 0.5rem 1rem;
+  width: 23rem;
+
+  border: none;
+  border-radius: 0.2rem;
+}
+
+.list-group-item {
+  border-radius: 0.2rem;
+}
+
+.list-group-txt {
+  color: white;
+  text-transform: uppercase;
+  font-weight: 600;
+}
+
+.delete-item {
+  cursor: pointer;
+  color: #53bdff;
+}
+
+.clear-tasks-btn {
+  background: #53bdff;
+  font-weight: 600;
+  text-transform: uppercase;
+  color: white;
+}
+
+.hide-item {
+  display: none !important;
+}
+
+@media only screen and (max-width: 400px) {
+  .new-task-input {
+    padding: 0.5rem 1rem;
+    width: 14rem;
+  }
+
+  .filter-input {
+    padding: 0.5rem 1rem;
+    width: 17rem;
+  }
+}
